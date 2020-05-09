@@ -19,7 +19,6 @@ while True:
     if (len(acct) < 1): break
 
    
-###change the screen name###
     url = twurl.augment(TWITTER_URL,
                         {'screen_name': acct, 'count': '5'})
     print('Retrieving', url)
